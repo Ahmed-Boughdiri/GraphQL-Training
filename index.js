@@ -13,7 +13,7 @@ const root = {
     books: () => books,
     authors: () =>({
         ...authors,
-    })
+    }),
 }
 
 app.use("/graphql", graphqlHTTP({
